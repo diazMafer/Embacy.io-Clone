@@ -1,0 +1,14 @@
+{
+    "parser": "babel-eslint",
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module"
+    },
+    "extends": [
+        "eslint:recommended",  
+        "plugin:react/recommended"
+    ],
+    "globals": {
+        "document": true
+    }
+  }
