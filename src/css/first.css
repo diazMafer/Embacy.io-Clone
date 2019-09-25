@@ -1,0 +1,121 @@
+.sect{
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 60px;
+}
+
+h2{
+    margin-top: 20px;
+    margin-bottom: 23px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #111;
+    font-size: 46px;
+    line-height: 60px;
+    font-weight: 400;
+    letter-spacing: 0em;
+}
+
+.ff{
+    width: 50%;
+}
+
+.fleft{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-cont{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.box{
+    margin-top: 10px;
+    max-width: 196px;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-left: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid hsla(0, 0%, 7%, .1);
+    border-bottom: 1px solid hsla(0, 0%, 7%, .1);
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #111;
+    line-height: 60px;
+    font-weight: 400;
+}
+
+.step-container{
+    max-width: 490px;
+    box-sizing: border-box;
+}
+
+.number-text{
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #ff4a47;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.par{
+    font-size: 21px;
+    line-height: 45px;
+    letter-spacing: -0.03em;
+}
+
+.block{
+    position: absolute;
+    left: 270px;
+    top: 0%;
+    right: auto;
+    bottom: auto;
+    z-index: -1;
+    display: flex;
+    overflow: hidden;
+    width: 380px;
+    height: 520px;
+    align-items: flex-end;
+    background-color: hsla(54.782608695652186, 35.38%, 87.25%, 0.30);
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #fff;
+    font-size: 200px;
+    line-height: 88px;
+    font-weight: 700;
+    letter-spacing: 0em;
+}
+
+.b02{
+    left: 430px;
+    width: 480px;
+    height: 480px;
+    background-color: rgba(73, 166, 255, .1);
+}
+
+.b03{
+    left: 298px;
+    width: 480px;
+    height: 370px;
+    background-color: rgba(255, 74, 71, .1);
+}
+.b04{
+    left: 570px;
+    width: 380px;
+    height: 500px;
+    background-color: hsla(46.44351464435147, 100.00%, 53.14%, 0.10);
+}
+.num{
+    display: block;
+    margin-bottom: -60px;
+    margin-left: -20px;
+    line-height: 200px;
+}
+
+.fs{
+    margin-left: 100px;
+}

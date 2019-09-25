@@ -14,15 +14,25 @@ module.exports = {
   },
   module: {
     rules: [
-      { test: /\.css$/,
+      { test: /\.css$/i,
         use: [
-          { loader: "style-loader" },
-          { loader: "postcss-loader" }
+          'style-loader',
+          { loader: 'css-loader', options: { importLoaders: 1 } },
+          'postcss-loader'
         ]
       },
       {
-        test: /\.svg$/,
-        loader: 'svg-inline-loader'
+        test: /\.(gif|png|jpe?g|svg)$/i,
+        use: [
+          'file-loader',
+          {
+            loader: 'image-webpack-loader',
+            options: {
+              bypassOnDebug: true, // webpack@1.x
+              disable: true, // webpack@2.x and newer
+            },
+          },
+        ],
       },
       {
         enforce: 'pre',
