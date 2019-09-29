@@ -7,7 +7,7 @@ const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
 })
 
 module.exports = {
-  entry: './src/index.js',
+  entry: './src/index.jsx',
   output: {
     path: path.resolve('dist'),
     filename: 'index_bundle.js'
@@ -49,8 +49,11 @@ module.exports = {
         exclude: /node_modules/,
         use: "babel-loader"
       }
-    ],
-    
+    ],  
+  },
+  resolve: {
+    modules: ['src', 'node_modules'],
+    extensions: ['jsx', '.js', '.scss', '.css']
   },
   plugins: [HtmlWebpackPluginConfig]
 }

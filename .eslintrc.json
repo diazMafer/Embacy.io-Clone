@@ -1,4 +1,5 @@
 {
+    "parser": "babel-eslint",
     "env": {
         "browser": true,
         "es6": true
@@ -21,5 +22,10 @@
         "react"
     ],
     "rules": {
+        "semi": ["error", "never"],
+        "react/prefer-stateless-function": [2, { "ignorePureComponents": true }],
+        "jsx-a11y/control-has-associated-label": "off",
+        "jsx-a11y/anchor-has-content": "off",
+        "react/require-default-props": "off"
     }
 }
