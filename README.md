@@ -13,11 +13,11 @@ Clone of the page https://embacy.io/ using webpack, react, babel, postcss and lo
 ## Built with
 This project features this tools
 
-- ⚛ **[React] (https://reactjs.org)** 
-- 🛠 **Babel** — ES6 syntax, Airbnb & React/Recommended config
-- 🚀 **Webpack**  — Hot Reloading, Code Splitting, Optimized Build
-- 💅 **CSS** — Styled Components
-- 💖  **Lint** — ESlint
-- 🐶  **Husky** — Prevent bad commits
+- ⚛ **[React](https://reactjs.org)** 
+- 🛠 **[Babel](https://babeljs.io/)** — ES6 syntax, Airbnb & React/Recommended config
+- 🚀 **[Webpack](https://webpack.js.org/)**  — Hot Reloading, Code Splitting, Optimized Build
+- 💅 **[CSS](https://postcss.org/)** — Styled Components
+- 💖  **[Lint](https://eslint.org/docs/user-guide/getting-started)** — ESlint
+
 
 
