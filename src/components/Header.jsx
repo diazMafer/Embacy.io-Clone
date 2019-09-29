@@ -1,7 +1,8 @@
-import React, { Component } from 'react';
-import '../css/header.css';
+import React, { Component } from 'react'
+import Collage from './Collage.jsx'
+import '../css/header.css'
 
-export default class Header extends Component {
+class Header extends Component {
   
     render() {
     
@@ -23,14 +24,7 @@ export default class Header extends Component {
                             </a>
                         </div>
                         </div>
-                        <div className="right-first" >
-                            <img src="./src/assets/E.svg"  className="abs f1" />
-                            <img src="./src/assets/C.svg"  className="abs f2" />
-                            <img src="./src/assets/M.svg"  className="abs f3" />
-                            <img src="./src/assets/B.svg"  className="abs f4" />
-                            <img src="./src/assets/A.svg"  className="abs f5" />
-                            <img src="./src/assets/Y.svg"  className="abs f6" />
-                        </div>   
+                        <Collage />
                     </div>                   
                 </div>
             </div>
@@ -38,3 +32,5 @@ export default class Header extends Component {
       )
     }
   }
+
+  export default Header

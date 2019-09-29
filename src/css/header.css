@@ -1,6 +1,4 @@
 header{
-    padding-right: 30px;
-    padding-left: 30px;
     position: relative;
     height: 850px;
 }
@@ -11,10 +9,9 @@ header{
     top: 0%;
     right: 0%;
     bottom: 0%;
-    z-index: 2000;
-    overflow: hidden;
+    padding-top: 10px;
     padding-right: 30px;
-    padding-left: 19px;
+    padding-left: 30px;
 }
 
 .container{
@@ -48,7 +45,7 @@ h1{
     font-family: 'IBM Plex Sans', sans-serif;
     color: black;
     font-size: 64px;
-    line-height: 70px;
+    line-height: 69px;
     font-weight: 900;
     letter-spacing: 0em;
     display: block;
@@ -96,28 +93,28 @@ h1{
 
 .f1{
     left: 29px;
-    top: 140px;
+    top: 137px;
     right: auto;
     bottom: auto;
 }
 
 .f2{
     left: 320px;
-    top: 533px;
+    top: 530px;
     right: auto;
     bottom: auto;
 }
 
 .f3{
     left: 360px;
-    top: 53px;
+    top: 50px;
     right: auto;
     bottom: auto;
 }
 
 .f4{
     left: 310px;
-    top: 333px;
+    top: 330px;
     right: auto;
     bottom: auto;
 }
@@ -126,12 +123,13 @@ h1{
     left: -40px;
     top: auto;
     right: auto;
-    bottom: 70px;
+    bottom: 63.5px;
 }
 
 .f6{
     left: 570px;
-    top: 373px;
+    top: 370px;
     right: auto;
     bottom: auto;
 }
+
