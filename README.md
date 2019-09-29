@@ -9,9 +9,9 @@ These instructions will get you a copy of the project up and running on your loc
 # Prerequisites
 You need to have Node.js and npm in your computer. 
 
-For Windows users [download](https://nodejs.org/en/#home-downloadhead) the package manager <br />
-For macOS users [download](https://nodejs.org/en/download/) the installer <br />
-For Linux users [download](https://nodejs.org/en/download/) 
+-> For Windows users [download](https://nodejs.org/en/#home-downloadhead) the package manager <br />
+-> For macOS users [download](https://nodejs.org/en/download/) the installer <br />
+-> For Linux users [download](https://nodejs.org/en/download/) 
 
 # Installing
 1. Clone the repository using `https://github.com/diazMafer/Embacy.io-Clone`
